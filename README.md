@@ -20,3 +20,5 @@ homestead halt
 homestead edit
 ...
 homestead up --provision
+
+( https://laracasts.com/discuss/channels/general-discussion/cannot-run-vagrant-provision-after-adding-a-new-site-to-homestead?page=1 )
