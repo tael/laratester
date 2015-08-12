@@ -109,6 +109,10 @@ return [
     */
 
     'providers' => [
+        /*
+         * PHPStorm helper
+         */
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
         /*
          * Laravel Framework Service Providers...
