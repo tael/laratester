@@ -1,6 +1,6 @@
 
 
-#install homestead
+#Homestead 설치
 
 http://laravel.com/docs/4.2/homestead
 
@@ -22,3 +22,17 @@ homestead edit
 homestead up --provision
 
 ( https://laracasts.com/discuss/channels/general-discussion/cannot-run-vagrant-provision-after-adding-a-new-site-to-homestead?page=1 )
+
+# PHPStorm 연동
+https://github.com/barryvdh/laravel-ide-helper
+
+## composer require barryvdh/laravel-ide-helper
+
+## [config/app.php]
+
+Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+
+## php artisan ide-helper:generate
+
+-- php artisan vendor:publish --provider="Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider" --tag=config
+=> 이건 뭔지 모르겠다.
